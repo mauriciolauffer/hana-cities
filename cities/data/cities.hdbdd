@@ -1,0 +1,39 @@
+namespace cities.data;
+
+@Schema: 'CITY'
+context cities {
+    type CString : String(5);
+ 	type SString : String(40);
+ 	type LString : String(800);
+ 	type SDate : UTCTimestamp; 
+    type tt_error {
+         HTTP_STATUS_CODE: Integer;
+         ERROR_MESSAGE: String(100);
+         DETAIL: String(200);
+    };
+    type tt_city{   
+        GEONAME_ID: SString; 
+        CITY_NAME: LString;
+        ASCII_NAME: LString;
+        LAT: SString;
+        LON: SString;
+        FEATURE_CODE: SString;
+        COUNTRY_CODE: CString;
+        POPULATION: Integer;
+        TIMEZONE: SString;
+    };
+ 	
+ 	@Catalog.tableType : #COLUMN
+ 	Entity City {
+        key GEONAME_ID: SString; 
+        CITY_NAME: LString;
+        ASCII_NAME: LString;
+        LAT: SString;
+        LON: SString;
+        FEATURE_CODE: SString;
+        COUNTRY_CODE: CString;
+        POPULATION: Integer;
+        TIMEZONE: SString;
+    };	
+
+}; 

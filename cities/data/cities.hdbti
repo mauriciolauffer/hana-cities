@@ -1,0 +1,7 @@
+import	= 	[ 
+    			{ 
+					cdstable  =	"cities.data::cities.City";
+					file = "cities.data:south_africa_cities.csv"; 	     
+					header = false;		
+    			} 
+     		]; 

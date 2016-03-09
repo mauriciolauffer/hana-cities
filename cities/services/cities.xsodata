@@ -1,0 +1,3 @@
+service namespace "cities.services.cities" {
+    "cities.data::cities.City" as "city";    
+}

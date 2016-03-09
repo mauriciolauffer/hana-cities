@@ -1,0 +1,8 @@
+role cities.data::user
+{
+catalog schema "CITY": CREATE ANY, ALTER, DROP, EXECUTE, SELECT, UPDATE, INSERT, DELETE, INDEX, TRIGGER, DEBUG, REFERENCES;
+catalog sql object "CITY"."cities.data::cities.City": //Objecttype: TABLE
+	SELECT, INSERT, UPDATE, DELETE;
+
+
+}
