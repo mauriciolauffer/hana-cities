@@ -21,11 +21,9 @@ Here is a basic description of the project. The structure is as follows:
 # Getting Started
 
 1. Login to your HANA MDC database with the **SYSTEM** user
-	
 	![HANA MDC database](./images/hana_mdc_database.png "HANA MDC database")
 
 2. Create new user - **CITY_DEV**
-	
 	![CITY_DEV](./images/city_dev.png  "CITY_DEV")
 	
 3. Assign the following roles:
@@ -43,9 +41,21 @@ Here is a basic description of the project. The structure is as follows:
 8. Activate the **cities** application
 9. Assign the **cities.data::user** role to the **CITY_DEV** user
 10. Open **OData Explorer** for **cities.xsodata**
-
 	![OData Explorer](./images/odata_explorer.png  "OData Explorer")
 
 # References 
 * <a href="http://www.saphana.com/docs/DOC-3773" target="_blank">**Core Data Services**</a>
 * For more information refer to the <a href="http://help.sap.com/hana/SAP_HANA_Developer_Guide_en.pdf" target="_blank">**SAP HANA Developer Guide**</a>
+
+
+# Copyright and License
+
+Copyright 2016 SAP SE
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
+
+<a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">http://www.apache.org/licenses/LICENSE-2.0</a>
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+Find the project description at documents/index.html
